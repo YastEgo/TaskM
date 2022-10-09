@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.wrapper{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.FAQ{
+    box-sizing: border-box;
+    padding: 58px 88px;
+    width: 60%;
+    background-color: #2C2C2C;
+    border-radius: 24px;
+    margin-bottom: 81px;
+    margin-top: 81px;
+    margin: 81px auto;
+}
+
+.FAQ h1{
+    color: white;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+.FAQ form .inputs{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.FAQ form .warning{
+    margin: 0px auto;
+    padding: 00px 0 20px;
+    color: #cb1212;
+}
+
+.FAQ form .password-block{
+    margin: 35px 0 49px 0;
+}
+
+.FAQ form .password-block input{
+    margin-right: 14px;
+}
+
+.FAQ form div input{
+    background: #F2F2F2;
+    border-radius: 12px;
+    padding-left: 28px;
+    margin-bottom: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #515151;
+}
+
+.FAQ form div .Email{
+    /* width: 631px; */
+    width: 100%;
+    height: 57px;
+    /* margin-right: 14px; */
+}
+
+.FAQ form div .Password{
+    /* width: 391px; */
+    width: 100%;
+    height: 57px;
+}
+
+.FAQ form div .choose{
+    font-family: 'Roboto';
+    font-style: normal;
+    color: #F2F2F2;
+    margin-left: 10px;
+}
+
+.FAQ form div select {
+    border-radius: 4px;
+    height: 20px;
+}
+
+.FAQ form div textarea{
+    background: #F2F2F2;
+    border-radius: 12px;
+    padding-left: 28px;
+    width: 100%;
+    height: 113px;
+    padding-top: 19px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #515151;
+    margin: 20px 0;
+    resize: none;
+}
+
+.FAQ form .buttons .button{
+    min-width: 162px;
+    height: 57px;
+    padding: 0;
+    cursor: pointer;
+    background: #E87613;
+    color: white;
+    margin-right: 41px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.FAQ form .buttons .registration{
+    min-width: 231px;
+}
+
+.FAQ form .buttons a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.PHP{
+    margin: 200px auto 0;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: black;
+}
+
+.PHP a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: #E87613;
+    text-decoration: none;
+}
+.FAQ form .buttons p{
+    color: red;
+}
+
+.pre-hello{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.hello{
+    font-family: 'Roboto';
+    font-style: normal; 
+    font-size: 40px;
+    text-align: center;
+}
+
+.hello a{
+    text-decoration: none;
+    color: #E87613;
+}

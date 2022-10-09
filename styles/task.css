@@ -1,0 +1,95 @@
+.wrapper{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#special_wrapper{
+    justify-content:center;
+
+}
+
+.wrapper section{
+    background-color: #2C2C2C;
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.wrapper section h2,p,a{
+    font-family: 'Roboto';
+    font-style: normal;
+    margin: 10px;
+    text-decoration: none;
+    color: #E87613;
+}
+
+.wrapper section .open{
+    padding-bottom: 10px;
+}
+
+.wrapper section h2{
+    color: #E87613;
+}
+
+.wrapper section p{
+    color: white;
+}
+
+.wrapper section .users{
+    display: flex;
+}
+
+.wrapper section .text{
+    display: block;
+    background-color: white;
+    color: black;
+    padding-left: 10px;
+    border-radius: 2px;
+}
+
+.wrapper section .users div{
+    margin-right: 60px;
+}
+
+#add-task{
+    background-color: unset;
+    margin: 50px 0;
+}
+
+#add-task a{
+    text-decoration: none;
+    color: black;
+    display: flex;align-items: center;
+    justify-content: center;
+}
+
+#black{
+    color: black;
+}
+
+#d1{
+    /* border: 2px black solid; */
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    background-color: #2C2C2C;
+    position: relative;
+}
+
+#d2, #d3{
+    width: 37px;
+    height: 7px;
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    position: absolute;
+    left: 7px;
+    top: 22px;
+}
+
+#d3{
+    rotate: 90deg;
+}
